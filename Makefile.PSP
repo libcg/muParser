@@ -1,9 +1,8 @@
 PSPSDK=$(shell psp-config --pspsdk-path)
 PSPDIR=$(shell psp-config --psp-prefix)
 TARGET_LIB = lib/libmuparser.a
-OBJS = src/muParserBase.o src/muParserBytecode.o src/muParserCallback.o        \
-       src/muParserDLL.o src/muParserError.o src/muParserInt.o                 \
-       src/muParserTest.o src/muParserTokenReader.o
+OBJS = src/muParser.o src/muParserBase.o src/muParserBytecode.o                \
+       src/muParserCallback.o src/muParserError.o src/muParserTokenReader.o
 
 CFLAGS = -O2 -G0 -I./include
 
