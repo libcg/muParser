@@ -1,0 +1,8 @@
+PSP port of muParser 2.2.2
+
+To install, run :
+
+make -f Makefile.PSP
+make -f Makefile.PSP install
+
+Enjoy
